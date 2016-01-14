@@ -8,6 +8,12 @@ body {
 
 /*----Nav Bar----*/
 .nav {
+	width: 960px;
+}
+
+
+
+.nav-centered{
 	position: relative;
 	top: 0;
 	width: 70em;
@@ -17,15 +23,16 @@ body {
 	padding: 0;
 	overflow: hidden; 
 	background-color: #ff0066;
+	text-align: center; 
 }
 
 .nav li { 
 	float: left;
+	display: inline-block;
 }
 
 .nav a { 
-	display: inline;
-	text-align: center;
+	display: inline-block;
 	padding: 14px 16px;
 	text-decoration: none; 
 	color: white;
@@ -38,11 +45,9 @@ body {
 	max-width: 700px;
 }
 
-div .small-image {
-	opacity: 0.4;
-	height: 20%;
+.small-image {
+	opacity: 0.2;
 	width: 20%;
 	max-width: 150px;
 	display: inline;
-	border-radius: 20px;
 }
